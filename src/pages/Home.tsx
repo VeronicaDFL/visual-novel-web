@@ -12,29 +12,29 @@ const Home = () => {
       <Container fluid className="visual-board">
         <Row className="g-0">
           <Col lg={5}>
-            <Image src={imageUri + "city-vertical.jpg"} />
+            <Image src={imageUri + "start.jpg"} />
           </Col>
 
           <Col lg={7}>
             <Container fluid>
               <Row className="g-0">
-                <Col lg={12}><Image src={imageUri + "cafe-two-people.jpg"} /></Col>
+                <Col lg={12}><Image src={imageUri + "second.jpg"} /></Col>
               </Row>
 
               <Row className="g-0">
-                <Col lg={8}><Image src={imageUri + "couple-laughing.jpg"} /></Col>
-                <Col lg={4}><Image src={imageUri + "male-laughing.jpg"} /></Col>
+                <Col lg={8}><Image src={imageUri + "third.jpg"} /></Col>
+                <Col lg={4}><Image src={imageUri + "fourth.jpg"} /></Col>
               </Row>
 
               <Row className="g-0">
-                <Col lg={12}><Image src={imageUri + "male-wrist-watch.jpg"} /></Col>
-                <Col lg={6}><Image src={imageUri + "female-thinking.jpg"} className="flip-180" /></Col>
+                <Col lg={12}><Image src={imageUri + "fifth.jpg"} /></Col>
+                <Col lg={6}><Image src={imageUri + "sixth.jpg"} className="flip-180" /></Col>
 
               </Row>
 
               <Row className="g-0">
                 <Col>
-                  <Image src={imageUri + "female-looking-out.jpg"} />
+                  <Image src={imageUri + "seventh.jpg"} />
                 </Col>
               </Row>
             </Container>            
@@ -43,27 +43,27 @@ const Home = () => {
 
         <Row>
           <Col>
-            <Image src={imageUri + "female-profile.jpg"} />
+            <Image src={imageUri + "eight.jpg"} />
           </Col>
         </Row>
 
         <Row className="bg-grey-dark">
           <Col
             xs={{span: 6, offset: 3}}>
-            <Image src={imageUri + "umbrella-pink-standing.webp"} />
+            <Image src={imageUri + "nineth.jpg"} />
           </Col>
         </Row>
     
 
         <Row className="g-0">
           <Col>
-            <Image src={imageUri + "motoryclce-standing.webp"} />
+            <Image src={imageUri + "tenth.jpg"} />
           </Col>
           <Col>
-            <Image src={imageUri + "male-motorcycle-revving.webp"} />
+            <Image src={imageUri + "eleventh.jpg"} />
           </Col>
           <Col>
-            <Image src={imageUri + "male-motorcycle-standing.webp"} />
+            <Image src={imageUri + "wedding.jpg"} />
           </Col>
         </Row>
 
