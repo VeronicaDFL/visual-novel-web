@@ -17,46 +17,56 @@ const Home = () => {
     <AppLayout>
       <section>
       <Container fluid className="visual-board">
-      <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch
+      <div>
+      <Button variant="outline-light" onClick={handleShow}>
+        About
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>"Concealed in Paradise"</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+        In a world teeming with extraordinary abilities, our tale unfolds around a remarkable woman yearning for an ordinary existence. Struggling to conceal her extraordinary powers, she dreams of a life free from the burdens of her unique gifts. However, fate intervenes, cruelly unmasking her true nature, and plunging her into a perilous journey of survival.
+
+        Forced to flee, she seeks solace in a remote tropical paradise, where the lush landscapes and vibrant cultures hide her from those who would seek to exploit her abilities. Amidst the idyllic surroundings, an unexpected encounter alters the course of her destiny forever. There, she crosses paths with a captivating man, a kindred spirit with his own untold secrets, igniting a spark of hope for a fresh start.
+
+        As their lives intertwine, the woman finds herself caught between the allure of love and the constant threat of being discovered. Together, they navigate the challenges of forging a new existence, as they grapple with their shared pasts and the uncertain future that lies ahead.
+
+        
         </Offcanvas.Body>
       </Offcanvas>
-    </>
-        <Row className="g-0">
+    </div>
+        <Row className="">
           <Col lg={5}>
-            <Image src={imageUri + "start.jpg"} />
+            <Image className="rounded-5" src={imageUri + "start.jpg"} />
           </Col>
 
           <Col lg={7}>
             <Container fluid>
-              <Row className="g-0">
-                <Col lg={12}><Image src={imageUri + "second.jpg"} /></Col>
+              <Row className="">
+                <Col lg={12}><Image className="rounded-5" src={imageUri + "second.jpg"} /></Col>
               </Row>
 
-              <Row className="g-0">
-                <Col lg={8}><Image src={imageUri + "third.jpg"} /></Col>
-                <Col lg={4}><Image src={imageUri + "fourth.jpg"} /></Col>
+              <Row className="">
+                <Col lg={8}><Image className="rounded-5" src={imageUri + "third.jpg"} /></Col>
+                <Col lg={4}><Image className="rounded-5" src={imageUri + "fourth.jpg"} /></Col>
               </Row>
 
-              <Row className="g-0">
-                <Col lg={12}><Image src={imageUri + "fifth.jpg"} /></Col>
-                <Col lg={6}><Image src={imageUri + "sixth.jpg"} className="flip-180" /></Col>
+              <Row className="">
+                <Col lg={12}><Image className="rounded-5" src={imageUri + "fifth.jpg"} /></Col>
+                <Col lg={6}>
+                  <Image className="rounded-5" src={imageUri + "sixth.jpg"}/>
+                 </Col>
+                <Col lg={6}>
+                  <Image className="rounded-5" src={imageUri + "fall.jpg"}/>
+                 </Col>
 
               </Row>
 
-              <Row className="g-0">
+              <Row className="">
                 <Col>
-                  <Image src={imageUri + "seventh.jpg"} />
+                  <Image className="rounded-5" src={imageUri + "seventh.jpg"} />
                 </Col>
               </Row>
             </Container>            
@@ -65,27 +75,29 @@ const Home = () => {
 
         <Row>
           <Col>
-            <Image src={imageUri + "eight.jpg"} />
+            <Image className="rounded-5" src={imageUri + "eight.jpg"} />
           </Col>
         </Row>
 
         <Row className="bg-grey-dark">
-          <Col
-            xs={{span: 6, offset: 3}}>
-            <Image src={imageUri + "nineth.jpg"} />
+        <Col>
+            <Image className="rounded-5" src={imageUri + "plane.jpg"} />
+          </Col>
+          <Col>
+            <Image className="rounded-5" src={imageUri + "nineth.jpg"} />
           </Col>
         </Row>
     
 
-        <Row className="g-0">
+        <Row className="">
           <Col>
-            <Image src={imageUri + "tenth.jpg"} />
+            <Image className="rounded-5" src={imageUri + "tenth.jpg"} />
           </Col>
           <Col>
-            <Image src={imageUri + "eleventh.jpg"} />
+            <Image className="rounded-5" src={imageUri + "eleventh.jpg"} />
           </Col>
           <Col>
-            <Image src={imageUri + "wedding.jpg"} />
+            <Image className="rounded-5" src={imageUri + "wedding.jpg"} />
           </Col>
         </Row>
 

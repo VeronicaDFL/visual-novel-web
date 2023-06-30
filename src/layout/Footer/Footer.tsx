@@ -6,10 +6,10 @@ import { Container,Row,Col } from "react-bootstrap";
 
   return (
     <footer>
-      <Container>
+      <Container >
         <Row>
           <Col> 
-            <p className="text-center">&copy;Veronica De Felice {currentYear}</p>
+            <p className="text-center text-white">&copy;_AI Generated Visual Novel by: Veronica De Felice_ {currentYear}</p>
           </Col>
         </Row>
       </Container>
