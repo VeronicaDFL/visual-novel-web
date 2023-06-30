@@ -1,8 +1,15 @@
 import { Container, Row, Col, Image } from "../utils/Bootstrap"
 import AppLayout from "../layout/AppLayout";
-
+import { useState } from 'react';
+import { Button } from "../utils/Bootstrap";
+import {Offcanvas} from "react-bootstrap";
 
 const Home = () => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   const imageUri = process.env.PUBLIC_URL + '/images/';
 
@@ -10,6 +17,21 @@ const Home = () => {
     <AppLayout>
       <section>
       <Container fluid className="visual-board">
+      <>
+      <Button variant="primary" onClick={handleShow}>
+        Launch
+      </Button>
+
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
         <Row className="g-0">
           <Col lg={5}>
             <Image src={imageUri + "start.jpg"} />
