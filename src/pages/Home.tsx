@@ -23,17 +23,17 @@ const Home = () => {
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>"Concealed in Paradise"</Offcanvas.Title>
+        <Offcanvas.Header  closeButton>
+          <Offcanvas.Title><p>"Concealed in Paradise"</p></Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
+        <Offcanvas.Body><p>
         In a world teeming with extraordinary abilities, our tale unfolds around a remarkable woman yearning for an ordinary existence. Struggling to conceal her extraordinary powers, she dreams of a life free from the burdens of her unique gifts. However, fate intervenes, cruelly unmasking her true nature, and plunging her into a perilous journey of survival.
 
         Forced to flee, she seeks solace in a remote tropical paradise, where the lush landscapes and vibrant cultures hide her from those who would seek to exploit her abilities. Amidst the idyllic surroundings, an unexpected encounter alters the course of her destiny forever. There, she crosses paths with a captivating man, a kindred spirit with his own untold secrets, igniting a spark of hope for a fresh start.
 
         As their lives intertwine, the woman finds herself caught between the allure of love and the constant threat of being discovered. Together, they navigate the challenges of forging a new existence, as they grapple with their shared pasts and the uncertain future that lies ahead.
 
-        
+        </p>
         </Offcanvas.Body>
       </Offcanvas>
     </div>

@@ -21,10 +21,7 @@ body {
     margin: 5px;
   }
 
-  .image-start {
-    width:620px;
-
-  }
+ 
   
     img {
       width: 100%;
@@ -33,4 +30,16 @@ body {
       margin: 5px; 
       padding: 5px;   
     }
+    .offcanvas {
+     background-color: black;
+    }
+
+    p {
+      color: rgb(210, 207, 207);
+    }
+
+    .btn-close {
+      background-color: white;
+    }
+   
   
