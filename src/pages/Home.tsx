@@ -37,23 +37,23 @@ const Home = () => {
         </Offcanvas.Body>
       </Offcanvas>
     </div>
-        <Row className="">
-          <Col lg={5}>
-            <Image className="rounded-5" src={imageUri + "start.jpg"} />
+        <Row className="g-0">
+          <Col lg={5} >
+            <Image className="image-start rounded-5" src={imageUri + "start.jpg"} />
           </Col>
 
           <Col lg={7}>
             <Container fluid>
-              <Row className="">
+              <Row className="g-0">
                 <Col lg={12}><Image className="rounded-5" src={imageUri + "second.jpg"} /></Col>
               </Row>
 
-              <Row className="">
+              <Row className="g-0">
                 <Col lg={8}><Image className="rounded-5" src={imageUri + "third.jpg"} /></Col>
                 <Col lg={4}><Image className="rounded-5" src={imageUri + "fourth.jpg"} /></Col>
               </Row>
 
-              <Row className="">
+              <Row className="g-0">
                 <Col lg={12}><Image className="rounded-5" src={imageUri + "fifth.jpg"} /></Col>
                 <Col lg={6}>
                   <Image className="rounded-5" src={imageUri + "sixth.jpg"}/>
@@ -64,7 +64,7 @@ const Home = () => {
 
               </Row>
 
-              <Row className="">
+              <Row className="g-0">
                 <Col>
                   <Image className="rounded-5" src={imageUri + "seventh.jpg"} />
                 </Col>
@@ -73,13 +73,13 @@ const Home = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="g-0">
           <Col>
             <Image className="rounded-5" src={imageUri + "eight.jpg"} />
           </Col>
         </Row>
 
-        <Row className="bg-grey-dark">
+        <Row className="g-0">
         <Col>
             <Image className="rounded-5" src={imageUri + "plane.jpg"} />
           </Col>
@@ -89,7 +89,7 @@ const Home = () => {
         </Row>
     
 
-        <Row className="">
+        <Row className="g-0">
           <Col>
             <Image className="rounded-5" src={imageUri + "tenth.jpg"} />
           </Col>

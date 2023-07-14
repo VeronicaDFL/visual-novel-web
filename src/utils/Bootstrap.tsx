@@ -12,6 +12,6 @@ import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Offcanvas from "react-bootstrap";
+
 
 export { Container, Row, Col, Card, Nav, Navbar, NavDropdown,  Button, Image, Accordion, Modal, Carousel, Tooltip, OverlayTrigger }

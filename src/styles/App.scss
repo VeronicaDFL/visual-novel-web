@@ -9,7 +9,7 @@ body {
 .btn-outline-light {
   --bs-btn-font-weight: 600;
   --bs-btn-hover-color: var($btn-color);
-  margin: 10px;
+  margin: 7px;
 
  
 }
@@ -17,8 +17,13 @@ body {
 
   
   section {
-    width: 99.9%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 5px;
+  }
+
+  .image-start {
+    width:620px;
+
   }
   
     img {
