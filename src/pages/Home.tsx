@@ -39,7 +39,7 @@ const Home = () => {
     </div>
         <Row className="g-0">
           <Col lg={5} >
-            <Image className="image-start rounded-5" src={imageUri + "start.jpg"} />
+            <Image className="rounded-5" src={imageUri + "start.jpg"} />
           </Col>
 
           <Col lg={7}>
@@ -76,6 +76,7 @@ const Home = () => {
         <Row className="g-0">
           <Col>
             <Image className="rounded-5" src={imageUri + "eight.jpg"} />
+
           </Col>
         </Row>
 

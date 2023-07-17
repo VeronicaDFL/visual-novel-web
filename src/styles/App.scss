@@ -4,6 +4,7 @@ $bc-color: black;
 body {
   background-color: $bc-color;
   margin: 5px;
+  margin-left: 15px;
 }
 
 .btn-outline-light {
@@ -18,7 +19,7 @@ body {
   
   section {
     width: 100%;
-    margin: 5px;
+ 
   }
 
  
@@ -41,4 +42,16 @@ body {
       background-color: white;
     }
    
-  
+
+    .hover03 figure img{
+      width: 400px;
+      height: auto;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .hover03 figure:hover img{
+      width: 300px;
+    }
+    
+    
+   
